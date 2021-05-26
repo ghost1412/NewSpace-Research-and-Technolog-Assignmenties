@@ -2,6 +2,7 @@ from google_play_scraper import Sort, reviews_all
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 import argparse
+import numpy as np
 
 parser = argparse.ArgumentParser(description='Review Word Cloud')
 parser.add_argument('-a', '--app', action='store', help='enter app', default=None)
@@ -24,7 +25,13 @@ result_1 = reviews_all(
 	country='us',
 	sort=Sort.MOST_RELEVANT, 
 	filter_score_with=1)	
-    
+
+import numpy as np
+np.savetxt("review_5.csv", result_5, delimiter=",", fmt='%s')
+
+import numpy as np
+np.savetxt("review_1.csv", result_1, delimiter=",", fmt='%s')  
+
 def createWordCloud(data):
 	comment_words = ''
 	stopwords = set(STOPWORDS)
