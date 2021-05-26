@@ -40,7 +40,7 @@ def createWordCloud(data):
 	for val in data:
 	      
 	    # typecaste each val to string
-		val = str(val)
+		val = str(val['content'])
 	  
 	    # split the value
 		tokens = val.split()
