@@ -1,4 +1,4 @@
-# NewSpace-Research-and-Technolog-Assignmenties
+# NewSpace-Research-and-Technolog-Assignments
 
 
 ## Test One - Human Detection in an aerial image
