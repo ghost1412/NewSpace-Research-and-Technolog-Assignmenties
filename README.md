@@ -8,7 +8,7 @@
 
 - OpenCV humanDetectionOpenCV.py detectMultiScale function
 - RatinaNet ResNet101RetinaNet.ipynb - https://github.com/fizyr/keras-retinanet
-- Not done labeling and avg IOU calculation
+- Not done labeling and avg IOU calculation because of time constraint
 
 <img src="https://github.com/ghost1412/NewSpace-Research-and-Technolog-Assignmenties/blob/main/Human%20Detection%20in%20an%20aerial%20image/RatinaNetOutput/13.png" width="600" height="600" />
 
